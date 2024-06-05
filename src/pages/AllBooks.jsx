@@ -46,7 +46,7 @@ const AllBooks = () => {
     return (
         <div className="min-h-screen">
             <div className="mb-16 text-4xl font-semibold px-3 my-20 w-fit mx-auto flex items-center justify-center gap-4">
-                <img src="/public/logo/books1.gif" className="w-[58px] rounded-full" alt="" />
+                <img src="/logo/books1.gif" className="w-[58px] rounded-full" alt="" />
                 <h2>All Available Books List</h2>
             </div>
             <form onSubmit={handleSearch} action="" className="mt-4 mb-12 mx-auto text-center">

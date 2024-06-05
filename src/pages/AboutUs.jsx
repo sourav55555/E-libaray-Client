@@ -8,7 +8,7 @@ const AboutUs = () => {
                 </div>
             <div className="flex items-center md:flex-row flex-col px-5 justify-center gap-10 max-w-[1300px] mx-auto mb-24">
                 <div className="md:w-[50%]">
-                    <img src="/public/about.jpg" className="md:h-[86vh] h-[50vh] mx-auto rounded-3xl object-cover" alt="" />
+                    <img src="/about.jpg" className="md:h-[86vh] h-[50vh] mx-auto rounded-3xl object-cover" alt="" />
                 </div>
                 <div className="md:w-1/2">
                     <p>

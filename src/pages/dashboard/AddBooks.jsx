@@ -1,3 +1,4 @@
+import toast, { Toaster } from "react-hot-toast";
 import useUser from "../../hooks/useUser";
 
 
@@ -28,14 +29,14 @@ const AddBooks = () => {
             body: JSON.stringify(bookdata)
         })
         .then(res => res.json())
-        .then(() => {form.reset()})
+        .then(() => { toast.success("Your book added successfully!") ;form.reset()})
 
     }
 
     return (
         <div className="h-screen flex items-center overflow-hidden">
             <div className="w-[60%]">
-                <img src="/public/pngwing.com (3).png" className="object-cover w-full " alt="" loading="lazy" />
+                <img src="/pngwing.com (3).png" className="object-cover w-full " alt="" loading="lazy" />
 
             </div>
             <div className="text-center w-[40%] -ms-32">
@@ -64,6 +65,7 @@ const AddBooks = () => {
                     <button type="submit" className="py-3 mt-3 hover:bg-[#41709e] transition-all duration-200 shadow-md shadow-gray-500 bg-[#113f67] rounded-xl w-full text-white">Add Book</button>
                 </form>
             </div>
+            <Toaster/>
         </div>
     );
 };

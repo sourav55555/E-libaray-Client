@@ -43,7 +43,7 @@ const Profile = () => {
             body: JSON.stringify(updateData)
         })
             .then(res => res.json())
-            .then(() => { setShowEdit(false); setReload(!reload) });
+            .then(() => { toast.success("Profile details updated.") ;setShowEdit(false); setReload(!reload) });
     }
 
     return (

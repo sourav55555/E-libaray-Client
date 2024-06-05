@@ -63,7 +63,7 @@ const Register = () => {
     return (
         <div className="min-h-[90vh] flex items-center justify-center py-8">
             <div className="w-[60%] md:block hidden">
-                <img src="/public/pngwing.com (4).png" className=" w-[630px] mx-auto object-cover" alt="" loading="lazy" />
+                <img src="/pngwing.com (4).png" className=" w-[630px] mx-auto object-cover" alt="" loading="lazy" />
             </div>
             <div className="md:w-[45%] md:p-16 p-5">
                 <h2 className="text-2xl font-bold mb-8">Register Here</h2>

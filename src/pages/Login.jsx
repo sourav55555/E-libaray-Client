@@ -31,7 +31,7 @@ const Login = () => {
     return (
         <div className="min-h-[90vh] flex items-center justify-center py-8">
             <div className="w-[60%] md:block hidden">
-                <img src="/public/loginbg.jpg" className=" w-[630px] mx-auto object-cover" alt="" loading="lazy" />
+                <img src="/loginbg.jpg" className=" w-[630px] mx-auto object-cover" alt="" loading="lazy" />
             </div>
             <div className="md:w-[45%] p-5 md:p-16">
                 <h2 className="text-2xl font-bold mb-8">Login & Enjoy More</h2>
