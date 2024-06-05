@@ -1,0 +1,7 @@
+.total-bg{
+    background-image: url("/image/bgtotal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
